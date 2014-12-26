@@ -5,6 +5,7 @@ sp2-cw3-2014
 
 ## Coursework 3
 
+### Specification
 1. [X] Create three classes: Building, Elevator, and Customer.
 2. [X] Equip the building with an elevator. Ask the user to decide upon the number of floors and the
 number of customers.
