@@ -1,60 +1,59 @@
-/**
- * 
- */
 package stworo01;
 
 /**
- * @author stefan01
+ * 
+ * @author stefan Tworogal
  *
  */
 public class Building {
 	// instance variables
-			private int numberOfFloors;
-			private int numberOfCustomers;
-			private Elevator one;
+	private int numberOfFloors;
+	private int numberOfCustomers;
+	private Elevator elevator;
 
-			public Building(int numberOfFloors, int numberOfCustomers) {
-				super();
-				this.numberOfFloors = numberOfFloors;
-				this.numberOfCustomers = numberOfCustomers;
-				this.setOne(new Elevator(numberOfFloors));
-			}
-			/**
-			 * @return the numberOfFloors
-			 */
-			public int getNumberOfFloors() {
-				return numberOfFloors;
-			}
+	public Building(int numberOfFloors, int numberOfCustomers) {
+		super();
+		this.numberOfFloors = numberOfFloors;
+		this.numberOfCustomers = numberOfCustomers;
+		this.setElevator(new Elevator(numberOfFloors));
+	}
 
-			/**
-			 * @param numberOfFloors
-			 *            the numberOfFloors to set
-			 */
-			public void setNumberOfFloors(int numberOfFloors) {
-				this.numberOfFloors = numberOfFloors;
-			}
+	/**
+	 * @return the numberOfFloors
+	 */
+	public int getNumberOfFloors() {
+		return numberOfFloors;
+	}
 
-			/**
-			 * @return the numberOfCustomers
-			 */
-			public int getNumberOfCustomers() {
-				return numberOfCustomers;
-			}
+	/**
+	 * @param numberOfFloors
+	 *            the numberOfFloors to set
+	 */
+	public void setNumberOfFloors(int numberOfFloors) {
+		this.numberOfFloors = numberOfFloors;
+	}
 
-			/**
-			 * @param numberOfCustomers
-			 *            the numberOfCustomers to set
-			 */
-			public void setNumberOfCustomers(int numberOfCustomers) {
-				this.numberOfCustomers = numberOfCustomers;
-			}
-			public Elevator getOne() {
-				return one;
-			}
-			public void setOne(Elevator one) {
-				this.one = one;
-			}
+	/**
+	 * @return the numberOfCustomers
+	 */
+	public int getNumberOfCustomers() {
+		return numberOfCustomers;
+	}
 
+	/**
+	 * @param numberOfCustomers
+	 *            the numberOfCustomers to set
+	 */
+	public void setNumberOfCustomers(int numberOfCustomers) {
+		this.numberOfCustomers = numberOfCustomers;
+	}
 
+	public Elevator getOne() {
+		return elevator;
+	}
+
+	public void setElevator(Elevator elevator) {
+		this.elevator = elevator;
+	}
 
 }

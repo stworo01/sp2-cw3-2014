@@ -19,6 +19,7 @@ public class BuildingTest {
 	@Test
 	public void testBuilding() {
 		fail("Not yet implemented");
+		
 	}
 
 	/**

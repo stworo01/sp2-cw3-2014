@@ -1,10 +1,7 @@
-/**
- * 
- */
 package stworo01;
 
 /**
- * @author stefan01
+ * @author stefan Tworogal
  *
  */
 public class Elevator {
@@ -67,14 +64,10 @@ public class Elevator {
 
 	public void move() {
 		if (isDirectionUp) {
-			currentFloor++;
+			this.currentFloor++;
 		} else {
-			currentFloor--;
+			this.currentFloor--;
 		}
 	}
-	
-	
-	
-	
 
 }
