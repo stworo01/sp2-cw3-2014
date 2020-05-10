@@ -24,3 +24,5 @@ exceptions you use. The quality of the code matters and the performance.
 11. [X] Implement both your own strategy and the default strategy and then compare them. Your
 strategy does not have to be better (your grade will not depend on it) but the comparison is required.
 
+## Status update
+Archived 10/05/2020
